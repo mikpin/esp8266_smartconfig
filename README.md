@@ -1,8 +1,11 @@
-esp_iot_rtos_sdk
+esp_iot_rtos_sdk based configuration tool
 ================
 
-ESP8266 new SDK based on FreeRTOS
+NFor normal operation the chips works in Station Mode
+Putting GPIO_0 to GND it switches to soft AP encrypted channel
 
+connect to the chosen ssid and send a config packege to configure the chip then reset.
+if theisn't a connectione in 60 seconds the system resets.
    
 Note
 
