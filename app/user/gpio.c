@@ -1,6 +1,5 @@
 #include "espressif/esp_common.h"
 
-#include "utils.h"
 #include "user_config.h"
 
 void init_mode(){
